@@ -25,22 +25,22 @@ namespace BMI2
             string resultText = "";
             if (bmi < 18)
             {
-                resultText = "¼ÍÁà¡Ô¹ä»";
+                resultText = "Â¼ÃÃÃ Â¡Ã”Â¹Ã¤Â»";
             }
             else if (bmi >= 18.5 && bmi <= 24)
             {
-                resultText = "¹éÓË¹Ñ¡»¡µÔ àËÁÒÐÊÁ";
+                resultText = "Â¹Ã©Ã“Ã‹Â¹Ã‘Â¡Â»Â¡ÂµÃ” Ã Ã‹ÃÃ’ÃÃŠÃ";
             }
-            else if (bmi >= 25.0 && bmi <= 29.9)
+            else if (bmi >= 24.1 && bmi <= 29.9)
             {
-                resultText = "ÍéÇ¹";
+                resultText = "ÃÃ©Ã‡Â¹";
             }
             else 
             {
-                resultText = "ÍéÇ¹ÁÒ¡";
+                resultText = "ÃÃ©Ã‡Â¹ÃÃ’Â¡";
             }
             
-            lblResult.Text = $"¤èÒ BMI: {bmi:F2}\n¼ÅÅÑ¾¸ì: {resultText}";
+            lblResult.Text = $"Â¤Ã¨Ã’ BMI: {bmi:F2}\nÂ¼Ã…Ã…Ã‘Â¾Â¸Ã¬: {resultText}";
         }
     }
 }
